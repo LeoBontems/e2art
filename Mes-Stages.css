@@ -26,7 +26,6 @@
   grid-gap: 14px 14px;
   margin-top: -12px;
   margin-bottom: 1px;
-  height: auto;
 }
 
 .u-section-1 .u-list-item-1 {
@@ -129,6 +128,7 @@
   .u-section-1 .u-list-1 {
     min-height: 725px;
     grid-template-columns: calc(((100% - 940px) / 2) + 453px) calc(((100% - 940px) / 2) + 453px);
+    height: auto;
     margin-top: -51px;
     margin-bottom: 3px;
     grid-gap: 34px 34px;
@@ -370,6 +370,10 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 {
+    min-height: 329px;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 1932px;
   }
